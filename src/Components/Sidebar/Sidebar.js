@@ -56,7 +56,7 @@ const Sidebar = (props) => {
             </div>
             <div className='task-time'>
                 <h5>Break Time</h5>
-                <p>{breaktime} minutes</p>
+                <p>{breaktime ? breaktime : 0} minutes</p>
 
             </div>
 

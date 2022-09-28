@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPalette } from '@fortawesome/free-solid-svg-icons'
 import Activities from '../Activities/Activities';
 import Sidebar from '../Sidebar/Sidebar';
+import ReactQuestions from '../ReactQuestions/ReactQuestions';
 const BasePage = () => {
     let addTime = 0;
     const [duration, setDuration] = useState(0);
@@ -27,6 +28,9 @@ const BasePage = () => {
                 <div>
                     <Sidebar props={duration}></Sidebar>
                 </div>
+            </div>
+            <div className='questions'>
+                <ReactQuestions></ReactQuestions>
             </div>
         </div>
     );

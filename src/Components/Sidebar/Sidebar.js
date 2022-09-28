@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Swal from 'sweetalert2'
 import './Sidebar.css'
 
 const Sidebar = (props) => {
@@ -14,6 +15,15 @@ const Sidebar = (props) => {
         setBreaktime(breakTime);
         localStorage.setItem('breakDuration', breakTime);
 
+    };
+    const btnCompleted = () => {
+        Swal.fire({
+            position: 'top-middle',
+            icon: 'success',
+            title: 'Sweet! You have Completed your tasks',
+            showConfirmButton: false,
+            timer: 2000
+        })
     };
     return (
 
@@ -58,6 +68,10 @@ const Sidebar = (props) => {
                 <h5>Break Time</h5>
                 <p>{breaktime ? breaktime : 0} minutes</p>
 
+            </div>
+
+            <div className="completed">
+                <button onClick={btnCompleted}>Activity Completed</button>
             </div>
 
 

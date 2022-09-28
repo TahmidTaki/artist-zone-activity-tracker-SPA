@@ -96,3 +96,14 @@ div.sticky {
     color: rgba(0, 0, 0, 0.666);
     font-weight: 300;
 }
+
+.completed button {
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(5, 73, 73);
+    color: white;
+    font-size: large;
+}

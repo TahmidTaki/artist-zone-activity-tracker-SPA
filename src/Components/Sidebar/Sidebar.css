@@ -47,3 +47,31 @@
     font-size: 50%;
     font-weight: 300;
 }
+
+.break-buttons {
+    background-color: rgb(238, 238, 238);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.break-buttons button {
+    border: none;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.break-buttons button:hover {
+
+    background-color: skyblue;
+
+}
+
+.break-buttons button:focus {
+
+    background-color: blue;
+    color: white;
+
+}

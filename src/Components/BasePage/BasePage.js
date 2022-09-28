@@ -21,7 +21,7 @@ const BasePage = () => {
         <div>
             <div className='main-container'>
                 <div>
-                    <h1 className='page-title'><FontAwesomeIcon icon={faPalette} />__Artist Zone</h1>
+                    <h1 className='page-title'><FontAwesomeIcon icon={faPalette} />__【🅰🆁🆃🅸🆂🆃 𝒵𝑜𝓃𝑒】</h1>
 
                     <Activities addDuration={addDuration}></Activities>
                 </div>

@@ -1,5 +1,8 @@
 .sidebar-body {
-    margin: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
 }
 
 div.sticky {
@@ -30,8 +33,12 @@ div.sticky {
     padding-bottom: 0px;
 }
 
+.location {
+    margin-left: 10px;
+}
+
 .additional-info {
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(128, 128, 128, 0.151);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-left: 10px;
@@ -55,7 +62,7 @@ div.sticky {
 }
 
 .break-buttons {
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(128, 128, 128, 0.151);
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
@@ -83,7 +90,7 @@ div.sticky {
 }
 
 .task-time {
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(128, 128, 128, 0.151);
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10px;

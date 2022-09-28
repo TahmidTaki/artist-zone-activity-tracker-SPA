@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Swal from 'sweetalert2'
 import './Sidebar.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMapPin } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = (props) => {
     let duration = props.props;
@@ -32,7 +34,7 @@ const Sidebar = (props) => {
                 <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_960_720.png" alt="" />
                 <div className='user-detail'>
                     <h3>Tahmid Taki Rahman</h3>
-                    <p>Kuala Lampur, Malaysia</p>
+                    <p><FontAwesomeIcon icon={faMapPin} /><span className='location'>Kuala Lampur, Malaysia</span></p>
                 </div>
             </div>
 

@@ -3,7 +3,8 @@ import './BasePage.css'
 import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPalette } from '@fortawesome/free-solid-svg-icons'
-import Activities from './Activities/Activities';
+import Activities from '../Activities/Activities';
+import Sidebar from '../Sidebar/Sidebar';
 const BasePage = () => {
     const i = '<img src="https://i.ibb.co/GdJM3M8/act1.jpg" alt="act1" border="0">';
     return (
@@ -15,7 +16,7 @@ const BasePage = () => {
                     <Activities></Activities>
                 </div>
                 <div>
-                    <h2>sideBar</h2>
+                    <Sidebar></Sidebar>
                 </div>
             </div>
         </div>

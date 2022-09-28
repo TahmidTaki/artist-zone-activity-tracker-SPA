@@ -4,17 +4,19 @@ import './Sidebar.css'
 const Sidebar = (props) => {
     let duration = props.props;
     // console.log(props.props);
-    console.log(duration);
+    // console.log(duration);
+    const previousBreak = localStorage.getItem('breakDuration');
+    console.log(previousBreak);
+    const [breaktime, setBreaktime] = useState(previousBreak);
 
+    const breakTime = (breakTime) => {
+        console.log(breakTime, 'from btn click');
+        setBreaktime(breakTime);
+        localStorage.setItem('breakDuration', breakTime);
 
-
-    // useEffect(() => {
-    //     setTime = time + 1;
-    // }, []);
-
-
-
+    };
     return (
+
         <div className='sidebar-body sticky'>
             <div className='user-info'>
                 <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_960_720.png" alt="" />
@@ -40,10 +42,10 @@ const Sidebar = (props) => {
             </div>
             <h4>Add a break</h4>
             <div className="break-buttons">
-                <button>5m</button>
-                <button>10m</button>
-                <button>20m</button>
-                <button>30m</button>
+                <button onClick={() => breakTime(5)}>5m</button>
+                <button onClick={() => breakTime(10)}>10m</button>
+                <button onClick={() => breakTime(20)}>20m</button>
+                <button onClick={() => breakTime(30)}>30m</button>
             </div>
 
             <h4>Task Details</h4>
@@ -54,7 +56,7 @@ const Sidebar = (props) => {
             </div>
             <div className='task-time'>
                 <h5>Break Time</h5>
-                <p>5 minutes</p>
+                <p>{breaktime} minutes</p>
 
             </div>
 

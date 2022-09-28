@@ -1,51 +1,51 @@
 [
     {
         "id": "63347c4db44799ea8933086c",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://i.ibb.co/GdJM3M8/act1.jpg",
         "duration": 10,
-        "detail": "Elit cillum fugiat dolore cillum. Tempor ullamco anim adipisicing excepteur. Sit exercitation voluptate veniam incididunt veniam voluptate cillum magna dolor quis commodo. Nulla consequat nisi enim officia adipisicing eu occaecat tempor minim dolore reprehenderit. Eu Lorem exercitation irure proident fugiat do esse in.\r\n",
+        "detail": "Set up supplies in advance for make the painting easier\r\n",
         "name": "Set up canvas"
     },
     {
         "id": "63347c4dd7ee411086567ad0",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://i.ibb.co/9TCVYLz/act2.jpg",
         "duration": 30,
-        "detail": "Cillum ut qui sint aliqua tempor eu esse veniam non. Excepteur deserunt sint tempor esse fugiat laboris irure dolor. Lorem minim fugiat voluptate ullamco ea anim ipsum. Ut in Lorem anim duis commodo cupidatat elit duis aliquip consectetur enim labore. Et duis enim aliqua et Lorem enim nostrud mollit nisi reprehenderit in mollit veniam excepteur. Est dolor nostrud ut sit officia culpa dolor quis mollit labore anim.\r\n",
+        "detail": "Simple sketch of something to paint\r\n",
         "name": "Outline"
     },
     {
         "id": "63347c4de681116407668213",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://i.ibb.co/vPmSr7B/act3.jpg",
         "duration": 40,
-        "detail": "Do ut voluptate veniam irure elit aliqua cillum esse tempor. Do et nisi nisi officia. Velit sit commodo sunt esse do. In velit culpa magna amet et enim est ipsum.\r\n",
+        "detail": "Adjust the colors appropriately.\r\n",
         "name": "Adding color"
     },
     {
         "id": "63347c4d45e0dae342c86ffd",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://i.ibb.co/BKHDysS/act4.jpg",
         "duration": 20,
-        "detail": "Occaecat minim nisi ad minim elit amet reprehenderit Lorem. Non ullamco irure amet qui. Eu mollit elit est ut ullamco proident enim mollit enim elit irure ullamco. In eu aliquip aliquip amet qui sint nisi do Lorem. Labore excepteur amet tempor Lorem fugiat cillum commodo exercitation Lorem cupidatat labore dolor. Id incididunt sint occaecat duis nulla ipsum ut eiusmod consectetur proident.\r\n",
+        "detail": "Painting areas that are in shadow\r\n",
         "name": "Blocking"
     },
     {
         "id": "63347c4d12dd345435773ebb",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://i.ibb.co/tM8x5fB/act5.jpg",
         "duration": 25,
-        "detail": "Nisi reprehenderit consequat nostrud Lorem quis cillum. Voluptate eu aliqua proident non enim Lorem qui ut. Dolor esse ex in est aliqua dolore tempor enim ad laborum amet. Sit nostrud incididunt aliquip magna enim esse elit laboris pariatur nostrud exercitation ullamco do. Adipisicing pariatur laboris ea qui dolor aliquip cillum amet voluptate labore duis Lorem. Incididunt aliqua reprehenderit consectetur pariatur aute.\r\n",
+        "detail": "Apply thin layers of paint upon.\r\n",
         "name": "Adding layers"
     },
     {
         "id": "63347c4d069313fecc79545b",
-        "picture": "http://placehold.it/32x32",
+        "picture": "https://i.ibb.co/NZLfVbj/act6.jpg",
         "duration": 15,
-        "detail": "Aliquip tempor laboris voluptate consectetur nostrud laboris consectetur tempor excepteur. Enim esse commodo mollit nostrud. Proident excepteur enim incididunt eiusmod sunt proident labore aute consectetur reprehenderit magna ex consequat deserunt. Occaecat nulla qui consequat ut velit. In consectetur do aliqua aute do ad qui veniam.\r\n",
+        "detail": "Usually white at this point.\r\n",
         "name": "Finishing"
     },
     {
-        "id": "63347c4d069313fecc79545b",
-        "picture": "http://placehold.it/32x32",
+        "id": "63347c4d069313fecc79546b",
+        "picture": "https://i.ibb.co/rtNymgY/act7.png",
         "duration": 10,
-        "detail": "check the details or adding color here and there\r\n",
+        "detail": "Check the details or adding color here and there\r\n",
         "name": "Finishing"
     }
 ]

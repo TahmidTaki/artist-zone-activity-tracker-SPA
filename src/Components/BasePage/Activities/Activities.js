@@ -12,12 +12,15 @@ const Activities = () => {
 
     return (
         <div>
+
             <h3>Select today's activity</h3>
-            {
-                activities.map(activity =>
-                    <Activity activity={activity} key={activity.id}></Activity>
-                )
-            }
+            <div className='container'>
+                {
+                    activities.map(activity =>
+                        <Activity activity={activity} key={activity.id}></Activity>
+                    )
+                }
+            </div>
         </div>
     );
 };

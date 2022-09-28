@@ -6,7 +6,7 @@ const Activity = (props) => {
     const { id, picture, duration, detail, name } = props.activity;
     // console.log(id, duration);
     return (
-        <div>
+        <div className='card-container'>
             <div className="card">
                 <img src={picture} alt="" />
                 <h3>Name: {name}</h3>

@@ -2,6 +2,12 @@
     margin: 10px;
 }
 
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 .user-info {
     display: flex;
     justify-content: center;
@@ -74,4 +80,19 @@
     background-color: blue;
     color: white;
 
+}
+
+.task-time {
+    background-color: rgb(238, 238, 238);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.task-time p {
+    color: rgba(0, 0, 0, 0.666);
+    font-weight: 300;
 }

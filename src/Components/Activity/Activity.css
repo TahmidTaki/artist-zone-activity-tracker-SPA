@@ -13,10 +13,11 @@
 }
 
 .card button {
-    background-color: blue;
+    background-color: rgb(70, 70, 251);
     padding: 10px 40px;
     border-radius: 5px;
     color: azure;
+    font-weight: 600;
 }
 
 .card button:hover {

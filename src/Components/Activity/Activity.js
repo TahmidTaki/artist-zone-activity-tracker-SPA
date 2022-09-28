@@ -9,11 +9,11 @@ const Activity = (props) => {
 
         <div className="card">
             <img src={picture} alt="" />
-            <h3>Name: {name}</h3>
+            <h3>Activity: {name}</h3>
             <h4>Details: {detail}</h4>
             <p>Skill: <small>Intermediate</small></p>
             <p>Duration: {duration} min</p>
-            <button>Add-to-list</button>
+            <button onClick={() => props.addDuration(props.activity)}>Add-to-list</button>
         </div>
 
     );

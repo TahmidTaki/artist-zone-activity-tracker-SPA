@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Sidebar.css'
 
-const Sidebar = () => {
+const Sidebar = (props) => {
+    let duration = props.props;
+    // console.log(props.props);
+    console.log(duration);
+
+
+
+    // useEffect(() => {
+    //     setTime = time + 1;
+    // }, []);
+
+
+
     return (
-        <div className='sidebar-body'>
+        <div className='sidebar-body sticky'>
             <div className='user-info'>
                 <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_960_720.png" alt="" />
                 <div className='user-detail'>
@@ -32,6 +44,18 @@ const Sidebar = () => {
                 <button>10m</button>
                 <button>20m</button>
                 <button>30m</button>
+            </div>
+
+            <h4>Task Details</h4>
+            <div className='task-time'>
+                <h5>Task Total Time</h5>
+                <p> {duration} minutes</p>
+
+            </div>
+            <div className='task-time'>
+                <h5>Break Time</h5>
+                <p>5 minutes</p>
+
             </div>
 
 

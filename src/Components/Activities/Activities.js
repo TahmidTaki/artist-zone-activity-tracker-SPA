@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import './Activities.css'
 
-const Activities = () => {
+const Activities = (props) => {
     const [activities, setActivities] = useState([]);
     useEffect(() => {
         fetch('data.json')
@@ -17,7 +17,7 @@ const Activities = () => {
             <div className='container'>
                 {
                     activities.map(activity =>
-                        <Activity activity={activity} key={activity.id}></Activity>
+                        <Activity activity={activity} key={activity.id} addDuration={props.addDuration}></Activity>
                     )
                 }
             </div>
